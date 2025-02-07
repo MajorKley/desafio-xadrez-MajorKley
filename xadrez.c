@@ -9,23 +9,36 @@ int main() {
 //torre
  for(direita = 1; direita <= 5; direita++){
 
-    printf("Torre move para: direita\n");
+    printf("direita\n");
  }
 
   printf("\n movimentação rainha \n");
 
 //rainha
 for(esquerda = 1; esquerda <=8; esquerda++){
-   printf("Rainha move para: esquerda \n");
+   printf("esquerda \n");
 }
 
 printf("\n movimentação bispo \n");
 
 //bispo
 for(esquerda = 1 ,direita = 1; esquerda <=5 && direita <=5; esquerda++ , direita++){
-   printf("bispo move: esquerda e direita \n");}
+   printf("esquerda e direita \n");}
 
+//cavalo
 
+printf("\n movimentação cavalo\n");
+
+for(baixo=1; baixo <=1; baixo++){
+   esquerda = 4; 
+      
+   while(esquerda > 1){
+
+   printf("baixo\n");
+   esquerda--;
+   }
+     printf("esquerda\n");
+}
   return 0;
 
 }
